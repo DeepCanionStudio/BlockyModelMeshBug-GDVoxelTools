@@ -1,0 +1,74 @@
+[gd_scene load_steps=20 format=3 uid="uid://cpl3otfuedqs1"]
+
+[ext_resource type="ArrayMesh" uid="uid://dprul4u3es6vp" path="res://staircase_outer.obj" id="1_8uh7m"]
+[ext_resource type="Script" uid="uid://u8t2lkn5lmxd" path="res://camera_3d.gd" id="1_37kl0"]
+
+[sub_resource type="VoxelGeneratorWaves" id="VoxelGeneratorWaves_37kl0"]
+channel = 0
+
+[sub_resource type="VoxelBlockyModelEmpty" id="VoxelBlockyModelEmpty_37kl0"]
+
+[sub_resource type="VoxelBlockyModelMesh" id="VoxelBlockyModelMesh_6uqi0"]
+collision_enabled_0 = true
+mesh = ExtResource("1_8uh7m")
+
+[sub_resource type="BoxMesh" id="BoxMesh_ppyta"]
+
+[sub_resource type="VoxelBlockyModelMesh" id="VoxelBlockyModelMesh_ykrsh"]
+collision_enabled_0 = true
+mesh = SubResource("BoxMesh_ppyta")
+
+[sub_resource type="BoxMesh" id="BoxMesh_37kl0"]
+
+[sub_resource type="VoxelBlockyModelMesh" id="VoxelBlockyModelMesh_8uh7m"]
+collision_enabled_0 = true
+mesh = SubResource("BoxMesh_37kl0")
+
+[sub_resource type="VoxelBlockyModelMesh" id="VoxelBlockyModelMesh_ppyta"]
+collision_enabled_0 = true
+mesh = ExtResource("1_8uh7m")
+mesh_ortho_rotation_index = 5
+
+[sub_resource type="VoxelBlockyModelMesh" id="VoxelBlockyModelMesh_37kl0"]
+collision_enabled_0 = true
+mesh = ExtResource("1_8uh7m")
+mesh_ortho_rotation_index = 5
+
+[sub_resource type="BoxMesh" id="BoxMesh_6uqi0"]
+
+[sub_resource type="VoxelBlockyModelMesh" id="VoxelBlockyModelMesh_g14j6"]
+collision_enabled_0 = true
+mesh = SubResource("BoxMesh_6uqi0")
+mesh_ortho_rotation_index = 5
+
+[sub_resource type="VoxelBlockyModelMesh" id="VoxelBlockyModelMesh_vbegm"]
+collision_enabled_0 = true
+mesh = ExtResource("1_8uh7m")
+
+[sub_resource type="VoxelBlockyLibrary" id="VoxelBlockyLibrary_g14j6"]
+models = Array[VoxelBlockyModel]([SubResource("VoxelBlockyModelEmpty_37kl0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_6uqi0"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_ykrsh"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_8uh7m"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_37kl0"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_g14j6"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_ppyta"), SubResource("VoxelBlockyModelMesh_vbegm"), SubResource("VoxelBlockyModelMesh_vbegm"), SubResource("VoxelBlockyModelMesh_vbegm"), SubResource("VoxelBlockyModelMesh_vbegm"), SubResource("VoxelBlockyModelMesh_vbegm"), SubResource("VoxelBlockyModelMesh_vbegm"), SubResource("VoxelBlockyModelMesh_vbegm"), SubResource("VoxelBlockyModelMesh_vbegm"), SubResource("VoxelBlockyModelMesh_vbegm"), SubResource("VoxelBlockyModelMesh_vbegm")])
+
+[sub_resource type="VoxelMesherBlocky" id="VoxelMesherBlocky_vbegm"]
+library = SubResource("VoxelBlockyLibrary_g14j6")
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_8uh7m"]
+
+[sub_resource type="Sky" id="Sky_6uqi0"]
+sky_material = SubResource("ProceduralSkyMaterial_8uh7m")
+
+[sub_resource type="Environment" id="Environment_ppyta"]
+background_mode = 2
+sky = SubResource("Sky_6uqi0")
+
+[node name="test" type="Node3D"]
+
+[node name="VoxelTerrain" type="VoxelTerrain" parent="."]
+generator = SubResource("VoxelGeneratorWaves_37kl0")
+mesher = SubResource("VoxelMesherBlocky_vbegm")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.950239, 0.311522, 0, -0.311522, 0.950239, 0, 1.26398, 4.90114)
+script = ExtResource("1_37kl0")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_ppyta")
